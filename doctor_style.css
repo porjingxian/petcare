@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+}
+
+header{
+    width: 100%;
+    background: #A4BFEB;
+    position:fixed;
+    z-index: 100000;
+}
+
+body{
+    background: #e6ffff;
+}
+
+.sticky{
+    background: #A4BFEB ;
+}
+
+.logo{
+    padding: 0 2rem;
+    font-size: 1.7rem;
+    color: #e67e22;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem 1rem;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 1rem 1.5rem;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #666;
+}
+
+nav .icon{
+    font-size: 1rem;
+    color: #5a67db;
+    cursor: pointer;
+}
+
+.sub-menu-wrap{
+    position: absolute;
+    top: 6rem;
+    right: 1.2rem;
+    width: 320px;
+    display: none;
+}
+
+.sub-menu{
+    background: #e6ffff;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 5px;
+}
+
+.menu-link{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #525252;
+    margin: 1rem 1rem;
+}
+
+.menu-link p{
+    width: 100%;
+    margin-left: 1.5rem;
+}
+
+.menu-link span{
+    font-size: 15px;
+    transition: transform 0.5s;
+}
+
+.menu-link:hover span{
+    transform: translateX(5px);
+}
+
+.menu-link:hover p{
+    font-weight: 600;
+}
+
+section{
+    padding: 1rem 0;
+    padding-top: 20vh;
+    height: 80vh;
+    bottom: 0;
+}
